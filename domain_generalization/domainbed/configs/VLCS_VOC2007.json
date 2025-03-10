@@ -1,0 +1,13 @@
+{
+    "exp_name": "VLCS_VOC",
+    "dataset": "VLCS",
+    "val_size": 0.2,
+    "src_data_path": "/home/shared/data/DomainBed/VLCS/",
+    "src_train_meta_filenames":["domainbed/configs/data_list/VLCS/LabelMe.txt",
+        "domainbed/configs/data_list/VLCS/SUN09.txt",
+        "domainbed/configs/data_list/VLCS/Caltech101.txt"],
+    "target_test_meta_filenames": ["domainbed/configs/data_list/VLCS/VOC2007.txt"],
+    "n_classes": 5,
+    "n_domain_classes": 3,
+    "iterations": 5000
+}

@@ -1,0 +1,13 @@
+{
+    "exp_name": "OfficeHome_RealWorld",
+    "dataset": "OfficeHome",
+    "val_size": 0.2,
+    "src_data_path": "domainbed/configs/data_list/",
+    "src_train_meta_filenames":["domainbed/configs/data_list/OfficeHome/Art.txt",
+        "domainbed/configs/data_list/OfficeHome/Clipart.txt",
+        "domainbed/configs/data_list/OfficeHome/Product.txt"],
+    "target_test_meta_filenames": ["domainbed/configs/data_list/OfficeHome/RealWorld.txt"],
+    "n_classes": 65,
+    "n_domain_classes": 3,
+    "iterations": 5000
+}

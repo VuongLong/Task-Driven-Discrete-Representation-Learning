@@ -1,0 +1,13 @@
+{
+    "exp_name": "TerraIncognita_location_46",
+    "dataset": "TerraIncognita",
+    "val_size": 0.2,
+    "src_data_path": "domainbed/configs/data_list/",
+    "src_train_meta_filenames":["domainbed/configs/data_list/TerraInc/location_38.txt",
+        "domainbed/configs/data_list/TerraInc/location_100.txt",
+        "domainbed/configs/data_list/TerraInc/location_43.txt"],
+    "target_test_meta_filenames": ["domainbed/configs/data_list/TerraInc/location_46.txt"],
+    "n_classes": 10,
+    "n_domain_classes": 3,
+    "iterations": 5000
+}
